@@ -1,0 +1,10 @@
+body { margin: 0; padding: 24px; background: #d9efff; color: #263746; font-family: Arial, sans-serif; line-height: 1.5; }
+.page { max-width: 680px; margin: 20px auto; padding: 24px; background: #eaf6ff; border: 1px solid #b8d8ed; }
+.intro { color: #526879; }
+form, .book { margin: 16px 0; padding: 16px; border: 1px solid #b8d8ed; background: #f4faff; }
+label, input { display: block; width: 100%; box-sizing: border-box; }
+input { margin: 6px 0 12px; padding: 9px; border: 1px solid #9dbbd0; font: inherit; }
+button { margin: 4px 8px 4px 0; padding: 8px 14px; border: 1px solid #28678f; background: #3676a5; color: white; font: inherit; cursor: pointer; }
+button.plain-button { background: #eaf6ff; color: #263746; }
+#message { min-height: 1.5em; color: #315b77; }
+@media (max-width: 520px) { body { padding: 12px; } .page { margin: 0 auto; padding: 16px; } }
