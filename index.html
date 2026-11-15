@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book Collection</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="page">
+    <h1>Book Collection</h1>
+    <p class="intro">Add a book and keep a simple list.</p>
+    <form id="book-form">
+      <label for="title">Book title</label>
+      <input id="title" required>
+      <label for="author">Author</label>
+      <input id="author" required>
+      <button type="submit">Add book</button>
+      <button type="button" id="cancel" class="plain-button" hidden>Cancel edit</button>
+    </form>
+    <p id="message" role="status"></p>
+    <h2>Books</h2>
+    <div id="book-list"></div>
+  </main>
+</body>
+</html>
